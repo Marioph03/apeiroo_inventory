@@ -1,6 +1,6 @@
-id,name,entry_date,exit_date,stock,categ_id,description
-record_1,Producto A,2025-01-10,2025-03-15,100,category_1,"Descripción del Producto A"
-record_2,Producto B,2025-02-05,,50,category_2,"Descripción del Producto B (aún en stock)"
-record_3,Producto C,2025-03-01,2025-04-10,0,category_1,"Descripción del Producto C (agotado)"
-record_4,Servicio X,2025-04-01,,9999,category_service,"Descripción del Servicio X"
-record_5,Material Z,2025-01-20,2025-02-28,250,category_material,"Descripción del Material Z"
+id,name,entry_date,exit_date,stock,categ_id,
+Producto A,2025-01-10,2025-03-15,100,category_1
+Producto B,2025-02-05,,50,category_2
+Producto C,2025-03-01,2025-04-10,0,category_1
+Servicio X,2025-04-01,,9999,category_service
+Material Z,2025-01-20,2025-02-28,250,category_material
