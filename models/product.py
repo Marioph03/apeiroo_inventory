@@ -23,7 +23,7 @@ class Product(models.Model):
     )
     # categ_id: categoría (Many2one a product.category)
     categ_id = fields.Many2one(
-        'product.category',
+        'models.category',
         string='Categoría',
         required=True,
         ondelete='cascade',
@@ -31,4 +31,11 @@ class Product(models.Model):
     # description: descripción libre
     description = fields.Text(
         string='Descripción',
+    )
+
+    name_criteria_value = fields.One2many(
+        'models.criteria_values',
+        string = 'Criterios De Valoracion',
+        required=True,
+        ondelete= 'cascade'
     )

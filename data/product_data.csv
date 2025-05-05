@@ -1,6 +1,0 @@
-id,name,entry_date,exit_date,stock,categ_id,
-Producto A,2025-01-10,2025-03-15,100,category_1
-Producto B,2025-02-05,,50,category_2
-Producto C,2025-03-01,2025-04-10,0,category_1
-Servicio X,2025-04-01,,9999,category_service
-Material Z,2025-01-20,2025-02-28,250,category_material
